@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: cosign
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/securesign-tenant/cosign/cosign@sha256:6dd816a2ca18f4f5be28c2432b8d7472b0d5cd5835a80a6c9798c9856632f2d9
+        name: container-image
+        resources: {}
+status: {}
