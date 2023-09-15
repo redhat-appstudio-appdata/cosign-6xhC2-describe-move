@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: cosign
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/cosign/cosign@sha256:6dd816a2ca18f4f5be28c2432b8d7472b0d5cd5835a80a6c9798c9856632f2d9
+      - image: quay.io/redhat-user-workloads/securesign-tenant/cosign/cosign@sha256:661422cb04a9aed33a85bdbaeda950d7b5fdff0de46d61e4f1a137e2cdfa5128
         imagePullPolicy: Always
         name: container-image
         ports:
