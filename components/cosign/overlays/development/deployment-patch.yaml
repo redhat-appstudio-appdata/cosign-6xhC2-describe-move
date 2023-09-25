@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/securesign-tenant/cosign/cosign@sha256:0dcbd148114f76551ddb24ed3291bdcadbaec26a3a43a415a5a84c9606f56c20
+      - image: quay.io/redhat-user-workloads/securesign-tenant/cosign/cosign@sha256:7559f6b9c8ca948c17a5b2021bacc05b175a8fac2a17c878cc1489ad40a4c245
         name: container-image
         resources: {}
 status: {}
